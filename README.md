@@ -4,6 +4,8 @@ Reign's Full Stack Developer challenge solution
 
 ## Installing the app's docker image
 
+From the main directory run
+
 ```bash
 $ docker-compose up --build
 ```
