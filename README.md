@@ -10,7 +10,7 @@ $ docker-compose up --build
 
 After the installation is finished, visit [localhost:3000](https://localhost:3000) to see the app.
 
-## Installing the app without the docker image
+## Installing the app dependencies
 
 ```bash
 $ npm install
@@ -18,16 +18,9 @@ $ cd view
 $ npm install
 ```
 
-After the installation is finished, run:
-
-```bash
-$ cd ..
-$ npm run start:dev
-```
-
-Visit [localhost:3000](https://localhost:3000) to see the app.
-
 ## Test
+
+From the main directory run
 
 ```bash
 $ npm run test
