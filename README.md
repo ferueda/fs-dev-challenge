@@ -12,6 +12,8 @@ After the installation is finished, visit [localhost:3000](https://localhost:300
 
 ## Installing the app dependencies
 
+From the main directory run
+
 ```bash
 $ npm install
 $ cd view
