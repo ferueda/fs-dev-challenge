@@ -1,0 +1,18 @@
+version: '2'
+services:
+  view:
+    build: ./view
+    ports:
+      - '3000:3000'
+    depends_on:
+      - api
+  api:
+    build: .
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - '27017:27017'
